@@ -1,5 +1,5 @@
 FROM debian:testing
-MAINTAINER Mahefa Randimbisoa <mahefa@homemade.mg>
+MAINTAINER Mahefa Randimbisoa <dotmg@users.sourceforge.net>
 
 RUN mkdir -p /opencv/build
 COPY 4.5.3.tar.gz *.py /opencv
