@@ -30,7 +30,7 @@ RUN apt-get update -q -y && apt-get install -y \
 	libx264-160 \
 #	libjasper-dev \
 	libdc1394-22-dev;
-RUN cd /opencv && tar xf /4.5.3.tar.gz && mv opencv-* opencv && pip install numpy;
+RUN cd /opencv && tar xf ./4.5.3.tar.gz && mv opencv-* opencv && pip install numpy;
 RUN mkdir /opencv/opencv/build && \
 	cd /opencv/opencv/build && \
 	cmake \
